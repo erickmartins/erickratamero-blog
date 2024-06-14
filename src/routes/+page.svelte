@@ -1,7 +1,7 @@
 <script>
 	import {
 		DEFAULT_OG_IMAGE,
-		MY_TWITTER_HANDLE,
+		MY_MASTODON_HANDLE,
 		SITE_DESCRIPTION,
 		SITE_TITLE,
 		SITE_URL
@@ -23,11 +23,6 @@
 	<meta name="Description" content={SITE_DESCRIPTION} />
 	<meta property="og:description" content={SITE_DESCRIPTION} />
 	<meta property="og:image" content={DEFAULT_OG_IMAGE} />
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:creator" content={'@' + MY_TWITTER_HANDLE} />
-	<meta name="twitter:title" content={SITE_TITLE} />
-	<meta name="twitter:description" content={SITE_DESCRIPTION} />
-	<meta name="twitter:image" content={DEFAULT_OG_IMAGE} />
 </svelte:head>
 
 <BaseLayout>
@@ -42,19 +37,16 @@
 					This is
 					<br />
 					<span
-						class="relative ml-2 inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-sky-900"
+						class="relative ml-2 inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-purple-900"
 					>
-						<span class="relative skew-y-3 text-cyan-400">{SITE_TITLE}</span>
+						<span class="relative skew-y-3 text-red-400">{SITE_TITLE}</span>
 					</span>
 					!
 				</h1>
 				<h2 class="mb-4 text-zinc-700 dark:text-zinc-200">
-					Welcome to my site! What you'll see here are some of my notes, opinions and findings about
-					technology, frontend development and... mostly anything.
+					This is my own attempt at starting a blog + about me page - maybe the first step to a <a href="https://indieweb.org/POSSE" target="_blank">POSSE</a> future.
 				</h2>
-				<p class="text-black dark:text-white">
-					Thanks for your attention, and I hope to see you again soon!
-				</p>
+				
 			</div>
 		</div>
 

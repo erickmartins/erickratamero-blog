@@ -25,7 +25,7 @@
 </script>
 
 <svelte:head>
-	<title>Notes - luciano@ratamero.com</title>
+	<title>Blog - Erick Ratamero</title>
 	<meta name='description'
 				content="This is the place leave totally unrelated notes. They're mostly used on the blog posts, but may be linked from somewhere else." />
 </svelte:head>

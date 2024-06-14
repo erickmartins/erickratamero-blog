@@ -1,9 +1,8 @@
-export const SITE_URL = 'https://www.ratamero.com';
-export const GH_USER_REPO = 'lucianoratamero'; // used for pulling github issues and offering comments
+export const SITE_URL = 'https://erick.ratamero.com';
+export const GH_USER_REPO = 'erickmartins'; // used for pulling github issues and offering comments
 export const REPO_URL = 'https://github.com/' + GH_USER_REPO;
-export const SITE_TITLE = 'luciano@ratamero.com';
+export const SITE_TITLE = 'Erick Ratamero';
 export const SITE_DESCRIPTION =
-	"Luciano Ratamero's website! I have no idea what it contains, but welcome :]";
+	"Erick Ratamero's website - mostly a blog";
 export const DEFAULT_OG_IMAGE = 'https://www.ratamero.com/default-media-share.jpg';
-export const MY_TWITTER_HANDLE = 'lucianoratamero';
-export const MY_YOUTUBE = 'https://youtube.com/channel/UCYBAN_yOwqKG6tlaPHvROqg';
+export const MY_MASTODON_HANDLE = '@ratamero';

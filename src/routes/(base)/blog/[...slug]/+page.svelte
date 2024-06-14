@@ -1,5 +1,4 @@
 <script>
-	import { MY_TWITTER_HANDLE } from '$lib/siteConfig.js';
 	import dayjs from 'dayjs';
 	import { DEFAULT_OG_IMAGE } from '$lib/siteConfig';
 	import { page } from '$app/stores';
@@ -11,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>{metadata.title} - luciano@ratamero.com</title>
+	<title>{metadata.title} - erick@ratamero.com</title>
 
 	<link rel='canonical' href={$page.url} />
 	<meta property='og:url' content={$page.url} />
@@ -19,10 +18,6 @@
 	<meta property='og:title' content={metadata.title} />
 	<meta name='Description' content={metadata.description} />
 	<meta property='og:description' content={metadata.description} />
-	<meta name='twitter:card' content={metadata.image ? 'summary_large_image' : 'summary'} />
-	<meta name='twitter:creator' content={'@' + MY_TWITTER_HANDLE} />
-	<meta name='twitter:title' content={metadata.title} />
-	<meta name='twitter:description' content={metadata.description} />
 	{#if metadata.image}
 		<meta property='og:image' content={metadata.image} />
 		<meta name='twitter:image' content={metadata.image} />
@@ -48,7 +43,7 @@
 		</p>
 	</div>
 	<div
-		class='my-2 flex h-1 bg-gradient-to-r from-cyan-400 via-sky-500 to-pink-500 sm:mx-0 w-full'></div>
+		class='my-2 flex h-1 bg-gradient-to-r from-red-400 via-sky-500 to-pink-500 sm:mx-0 w-full'></div>
 
 	<div class='prose mt-12 w-full max-w-none dark:prose-invert'>
 		{@html content}

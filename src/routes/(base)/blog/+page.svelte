@@ -24,7 +24,7 @@
 </script>
 
 <svelte:head>
-	<title>Blog - luciano@ratamero.com</title>
+	<title>Blog - Erick Ratamero</title>
 	<meta name='description' content='The place I put all my blog posts. Most are just notes to self, though.' />
 </svelte:head>
 
@@ -35,8 +35,7 @@
 		Blog
 	</h1>
 	<p class='my-8 text-zinc-600 dark:text-zinc-400'>
-		This is the place I put all my blog posts. Most are just notes to self, though. In total, I've
-		written {items.length} articles here. Use the search below to filter by title and description.
+		This is yet another attempt at starting a blog. So far, I've managed to put out {items.length} articles here. There's a search below (by title or description).
 	</p>
 	<div class='relative mb-4 w-full'>
 		<input

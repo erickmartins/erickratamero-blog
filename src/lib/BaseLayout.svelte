@@ -1,5 +1,5 @@
 <script context='module'>
-	import { MY_TWITTER_HANDLE, MY_YOUTUBE, REPO_URL, SITE_TITLE } from '$lib/siteConfig.js';
+	import { MY_MASTODON_HANDLE, REPO_URL, SITE_TITLE } from '$lib/siteConfig.js';
 </script>
 
 <script>
@@ -20,7 +20,7 @@
 
 {#if $navigationIsDelayed}
 	<div class='fixed w-full h-full z-10' in:fade={{ duration: 150 }}>
-		<div class='absolute w-full h-full bg-white dark:bg-cyan-900 opacity-50 z-10'></div>
+		<div class='absolute w-full h-full bg-white dark:bg-red-900 opacity-50 z-10'></div>
 		<div class='absolute w-full h-full flex justify-center items-center z-20'>
 			<Circle3 />
 		</div>
@@ -49,9 +49,9 @@
 				class='text-zinc-500 transition hover:text-zinc-300'
 				target='_blank'
 				rel='noopener noreferrer'
-				href={'https://twitter.com/intent/follow?screen_name=' + MY_TWITTER_HANDLE}
+				href={'https://idlethumbs.social/' + MY_MASTODON_HANDLE}
 			>
-				Twitter
+				Mastodon
 			</a>
 			<a
 				class='text-zinc-500 transition hover:text-zinc-300'
@@ -61,14 +61,7 @@
 			>
 				GitHub
 			</a>
-			<a
-				class='text-zinc-500 transition hover:text-zinc-300'
-				target='_blank'
-				rel='noopener noreferrer'
-				href={MY_YOUTUBE}
-			>
-				YouTube
-			</a>
+			
 		</div>
 	</div>
 	<p class='prose px-4 dark:prose-invert sm:px-8'>

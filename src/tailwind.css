@@ -4,7 +4,7 @@
 
 @layer components {
 	body {
-		--brand-accent: #b40f0f;
+		--brand-accent: #d35959;
 		/* https://ishadeed.com/article/defensive-css */
 		overflow-wrap: break-word;
 		overflow-y: auto;
@@ -27,7 +27,7 @@
 	}
 
 	.dark ::selection {
-		color: #1d1d1d;
+		color: #0a29b0;
 	}
 
 	::marker {
@@ -83,7 +83,7 @@
 
 /* bg-cyan-200 dark:hover:bg-cyan-800 */
 a {
-	@apply text-cyan-800 hover:text-cyan-700 hover:underline dark:text-cyan-400 dark:hover:text-cyan-200;
+	@apply text-red-800 hover:text-red-700 hover:underline dark:text-pink-400 dark:hover:text-pink-200;
 }
 
 .prose h1 a,
@@ -94,7 +94,7 @@ h5 a,
 h6 a {
 	/* margin-left: 1rem; */
 	text-decoration: none !important;
-	@apply text-cyan-800 dark:text-cyan-400;
+	@apply text-red-800 dark:text-red-400;
 }
 
 .prose h2::before {

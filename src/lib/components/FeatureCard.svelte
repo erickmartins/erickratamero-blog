@@ -6,7 +6,7 @@
 </script>
 
 <a
-	class='w-full transform rounded-xl bg-gradient-to-r from-cyan-400 via-sky-500 to-pink-500 p-1 transition-all hover:scale-[1.01] md:w-1/3 hover:no-underline'
+	class='w-full transform rounded-xl bg-gradient-to-r from-red-400 via-sky-500 to-pink-500 p-1 transition-all hover:scale-[1.01] md:w-1/3 hover:no-underline'
 	{href}
 	data-sveltekit-prefetch
 >

@@ -23,7 +23,7 @@
 	{#if $page.status === 404}
 		<p class=''>There is no post at the slug <code>{$page.url.pathname}</code>.</p>
 		<p><a href={'/ideas/?filter=' + $page.url.pathname.slice(1)}>Try searching for it here!</a></p>
-		<p class=''>If you believe this was a bug, please let me know! Email luciano [at] ratamero.com</p>
+		<p class=''>If you believe this was a bug, please let me know! Email erick [at] ratamero.com</p>
 	{:else}
 		<p class='font-mono'>{message}</p>
 	{/if}

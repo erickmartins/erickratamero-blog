@@ -4,7 +4,7 @@
 
 @layer components {
 	body {
-		--brand-accent: #0fa1b4;
+		--brand-accent: #b40f0f;
 		/* https://ishadeed.com/article/defensive-css */
 		overflow-wrap: break-word;
 		overflow-y: auto;

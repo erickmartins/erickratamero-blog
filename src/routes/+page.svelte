@@ -46,6 +46,9 @@
 				<h2 class="mb-4 text-zinc-700 dark:text-zinc-200">
 					This is my own attempt at starting a blog + about me page - maybe the first step to a <a href="https://indieweb.org/POSSE" target="_blank">POSSE</a> future.
 				</h2>
+				<h2 class="mb-4 text-zinc-700 dark:text-zinc-200">
+					(with all the thanks in the world to my brother <a href="https://ratamero.com" target="_blank">Luciano</a> who set up 95% of all of this!)
+				</h2>
 				
 			</div>
 		</div>

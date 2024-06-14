@@ -1,8 +1,8 @@
 {
-    "name": "luciano@ratamero.com",
-    "short_name": "ratamero.com",
+    "name": "Erick Ratamero",
+    "short_name": "erick.ratamero.com",
     "start_url": "/",
-    "description": "Luciano Ratamero's site. Here are some of my notes, opinions and findings about technology, frontend development and... mostly anything.",
+    "description": "Erick Ratamero's site. This is my own attempt at starting a blog + about me page - maybe the first step to a POSSE future.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
